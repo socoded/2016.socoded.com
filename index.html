@@ -24,11 +24,117 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>So Coded</h1>
+      <div class="row logo">
+        <div class="col-md-12">
+          <img src="img/logo.jpg" alt="So Coded Logo" />
+          <h1>so coded 2016</h1>
+        </div>
+      </div>
+
+      <div class="row info">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center content">
+          <p>a web development conference <em>extraordinaire</em></p>
+          <p>21st &amp; 22nd July 2016 - Hamburg, Germany</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+
+      <div class="row buttons">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+          <a href="https://www.youtube.com/watch?v=RmlKgEBLuys" target="_blank">Our 2015 Video</a>
+          <a href="https://ti.to/so-coded/2016/" target="_blank" class="call-to-action">Get a Ticket</a>
+          <a href="#" onclick="removeCookie('MCEvilPopupClosed'); require(['mojo/signup-forms/Loader'], function(L) { L.start({baseUrl:'mc.us7.list-manage.com',uuid:'1b44d770cf8df6a45131a2bd3',lid:'454d82fdbf'}) }); return false;">Join Our Newsletter</a>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="row speaker-header">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center content">
+          <h2>Speaker Preview</h2>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="row speaker-body">
+        <div class="col-md-3 text-center">
+          <div class="speaker">
+            <a href="http://zachholman.com/" target="_blank">
+              <img src="img/speaker/zach-square.jpg" />
+              <h3>Zach Holman</h3>
+            </a>
+            <p>(Many great things @ Github)</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="speaker">
+            <a href="http://kytrinyx.com/" target="_blank">
+              <img src="img/speaker/katrina-square.jpg" />
+              <h3>Katrina Owen</h3>
+            </a>
+            <p>(Refactoring Expert Go / Ruby)</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="speaker">
+            <a href="http://mitchellh.com/" target="_blank">
+              <img src="img/speaker/mitchell-square.jpg" />
+              <h3>Mitchell Hashimoto</h3>
+            </a>
+            <p>(Founder HashiCorp / Vagrant)</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="speaker no-name">
+            <a href="http://2015.socoded.com/" target="_blank">
+              <img src="img/speaker/last-year-square.jpg" />
+            </a>
+            <p>Douglas Crockford, David Cuartielles (Arduino Founder), Vu Bui (COO Minecraft), …</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row speaker-footer">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center content">
+          <div class="ellipsis">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <p><em>More speakers coming soon.</em><p>
+        </div>
+        <div class="col-md-2"></div>
       </div>
 
     </div>
 
+    <footer class="footer">
+      <div class="container text-center">
+        <ul>
+          <li><a href="http://2013.socoded.com" target="_blank">So&nbsp;Coded&nbsp;2013</a></li>
+          <li><a href="http://2015.socoded.com" target="_blank">So&nbsp;Coded&nbsp;2015</a></li>
+          <li><a href="mailto:we@socoded.com">Contact&nbsp;Us</a></li>
+        </ul>
+
+        <p class="text-muted">Imprint: Thorben Schröder - Am Hohen Stege 10 - 21029 Hamburg - thorben@socoded.com</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>
+    function removeCookie(sKey, sPath, sDomain) {
+        document.cookie = encodeURIComponent(sKey) +
+                      "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" +
+                      (sDomain ? "; domain=" + sDomain : "") +
+                      (sPath ? "; path=" + sPath : "");
+    }
+    </script>
   </body>
 </html>
