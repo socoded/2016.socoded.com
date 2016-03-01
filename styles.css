@@ -183,3 +183,7 @@ footer {
   	width: 100%;
   	height: 100%;
   }
+
+#mc_embed_signup_scroll .submit {
+  text-align: center;
+}
